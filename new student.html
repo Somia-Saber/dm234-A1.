@@ -1,0 +1,103 @@
+<html>
+    <head>
+    
+        <title>  student list </title>
+    
+    </head>
+    <body>
+    <hr>
+     <!--nav-->
+     <a href="index.html"> Home</a> &nbsp;
+     <a href="student list .html">student list</a>&nbsp;
+     <a href="new student.html">new student</a>
+     <!--#nav-->
+     <hr/>
+     
+     <section>
+        <h1 class="title">New Student</h1>
+    <form action="api/add_new_student.php" method="POST" > 
+     <!--Personal Info-->
+     <fieldset >
+        <legend>Personal Information</legend>
+        <p>
+    <label>Full Name:</label><span style="color:red;">*</span>
+    <input type="text" placeholder="Enter your name" name="fname" required/>
+    
+</p>
+<p>
+
+    <label>Birthdate:</label><span style="color:red;">*</span>
+    <input type="date" name="Birthdate" required/>
+</p>
+
+<p>
+    <label>Gender:</label><span style="color:red;">*</span>
+    <input type="radio"name="Gender" value="male">male
+    <input type="radio"name="Gender" value="Fmale">Fmale
+
+
+
+</p>
+    </fieldset>
+    
+    <!--Personal Info-->
+    <p>
+        <label>
+            Email: 
+            <input type="email" name="txtEmail">
+    
+        </label>
+    </p>
+    <p>
+        <label>
+            Phone: 
+            <input type="tel" name="txtPhone">
+    
+        </label>
+    </p>
+    <p>
+        <label>
+            Address:
+            <textarea rows="5" cols="100" name="txtAddress"></textarea>
+        </label>
+    </p>
+
+     <!--Contact Info-->
+     <fieldset>
+        <legend>Contact Information</legend>
+       
+    
+    </fieldset>
+    <!--#Contact Info-->
+    
+    <!--University Info-->
+    <fieldset>
+        <legend>University Information</legend>
+        <p><label >
+            Choose Your Faculty:
+            <select name="faculty">
+                <option value="f1">Faculty 1       
+                </option>
+                <option value="f2">Faculty 2       
+                </option>
+        
+            </select>
+        </label></p>
+   
+    </fieldset>
+   
+    
+    <td><button type="submit"> add </button></td>
+    <td><a href "register.html" target="_blank">Create account</a></td>
+    
+    </form>
+    
+    </section>  
+     <hr>
+      <!--footer-->
+    copyright &copy;<a href="https://www.fue.edu.eg/" target="_blank">Future universtity in Egypt</a>
+    &nbsp;&mdash;&nbsp;<a href=" mailto:arwaaaaaaa20000@gmail.com">contact us</a>
+    <!--#footer-->
+    </body>
+    
+    </html>
