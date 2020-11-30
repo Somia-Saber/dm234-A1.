@@ -2,20 +2,23 @@
     <head>
     
         <title>  student list </title>
-    
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <Center> <h1 style="background-color:rgb(235, 129, 173);">student</h1></Center>
 
     <hr>
-     <!--nav-->
-     <a href="index.html"> Home</a> &nbsp;
-     <a href="student list .html">student list</a>&nbsp;
-     <a href="#">new student</a>
-     <!--#nav-->
+    <!--nav-->
+    <ul>
+        <li><a href="index.html" class="active"> Home</a> &nbsp;</li>
+       <li> <a href="student list .html"class="active" >student list</a>&nbsp;</li>
+       <li> <a href="new student.html" class="active" >new student</a></li>
+       <li class="nav-right"><a href="sign.html" class="active">logout</a></li>
+        </ul>
+        <!--#nav-->
      <hr>
      <table border='5'
-     style="width:80%">
+     style="width:100%">
      <thead>
           <tr>
               <td style="background-color:rgb(253, 186, 220);" >ID</td>
@@ -26,10 +29,9 @@
       </thead>
       <tbody>
           <tr> 
-              <td colspan="2">   
-              <li>20195372</li>
-              <li>somia saber shaaban</li> 
-              </td>
+                 
+              <td>20195372</td>
+              <td>somia saber shaaban</td>
               <td>computer scince</td>
               <td><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHoIcLaFkXmgdEo1tWx405-UDCBX1eEoT_tw&usqp=CAU"alt="student img" width="100" height="100"></td>
                 
