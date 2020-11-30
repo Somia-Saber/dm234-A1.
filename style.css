@@ -1,9 +1,56 @@
-.title{
-    text-align: center; 
-    color:4CAF50;
-    text-transform: uppercase;
-font-size: 32px;
-font-family: 'Times New Roman', Times, serif
+ul{
+    list-style-type: none;
+    border: 2px solid rgb(255, 0, 106);
+    background-color:rgb(255, 162, 193);
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
 }
-
- 
+li{
+    float: left;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    color: rgb(73, 0, 29);
+    padding:14px;
+}
+li a:hover{
+    background-color: rgb(255, 0, 89);
+    color: white;
+}
+.nav-right{
+    float: right;
+}
+.active{
+    background-color: rgb(255, 0, 119);
+    color: white;
+}
+.active:hover{
+    background-color: rgb(194, 0, 97);
+    color: white;
+}
+table{
+    border-collapse:collapse ;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+thead tr{
+    background-color: rgb(255, 0, 106);
+    text-align: center;
+    color: rgb(87, 1, 41);
+}
+tbody tr:nth-child(odd){
+   /* background-image: linear-gradient(red, yellow); */
+   background-color: rgb(255, 225, 235);
+}
+img{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+h1{
+    display: block;
+    background-image: linear-gradient(rgb(248, 0, 136),rgb(243, 145, 186));
+    border: 1px solid rgb(168, 6, 55);
+}
